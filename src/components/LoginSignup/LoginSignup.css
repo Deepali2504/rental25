@@ -1,0 +1,125 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px;
+    width: 700px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    padding-bottom: 0px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 61px;
+    height: 6px;
+    background: white;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+   display: flex;
+   align-items: center; 
+   margin: auto;
+   width: 480px;
+   height: 80px;
+   background-color: rgba(199, 197, 197, 0.492);
+   border-radius: 45px;
+}
+
+
+.Icons{
+    margin: 0px 30px;
+    height: 30px;
+    width: 30px;
+    color: rgb(61, 54, 54);
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent; 
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 19px;
+
+}
+
+::placeholder{
+    color: white;
+}
+
+.forgot-password{
+    padding-left: 112px;
+    margin-top: 27px;
+    color: black;
+    font-size: 18px;
+}
+
+.forgot-password span{
+    color: rgb(4, 0, 255);
+    cursor: pointer;
+}
+
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: white;
+    background-color: rgb(249, 25, 133);
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray{
+    background: whitesmoke;
+    color: grey;
+}
+
+.Checkbox{
+    display: flex;
+    margin-left: 120px;
+    font-weight: 480;
+}
+
+.Checkbox .Check{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}

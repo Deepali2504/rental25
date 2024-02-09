@@ -1,9 +1,13 @@
+import React from 'react'
 import './App.css';
+import LoginSignup from './components/LoginSignup/LoginSignup.jsx';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello roshni</h1>
+    <div>
+      <LoginSignup/>
     </div>
   );
 }
